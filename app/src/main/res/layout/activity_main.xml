@@ -11,18 +11,18 @@
 
     <TextView
         android:id="@+id/nowPlayingText"
-        android:text="This page shows the current music being played."
+        android:text="@string/now_playing_text"
         android:layout_width="match_parent"
         android:layout_height="400dp" />
     <TextView
         android:id="@+id/library"
-        android:text="Library"
+        android:text="@string/library"
         style="@style/ButtonStyle"
         android:layout_alignParentLeft="true"/>
 
     <TextView
         android:id="@+id/store"
-        android:text="Store"
+        android:text="@string/store"
         style="@style/ButtonStyle"
         android:layout_alignParentRight="true"/>
 

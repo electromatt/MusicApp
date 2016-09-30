@@ -10,19 +10,19 @@
     tools:context="com.electromatt.musicapp.LibraryActivity">
 
     <TextView
-        android:id="@+id/storeText"
-        android:text="This page shows a list of music in the Library. Music sorted by recent, and genre."
+        android:id="@+id/libraryText"
+        android:text="@string/library_text"
         android:layout_width="match_parent"
         android:layout_height="400dp" />
     <TextView
         android:id="@+id/nowPlaying"
-        android:text="Now Playing"
+        android:text="@string/now_playing"
         style="@style/ButtonStyle"
         android:layout_alignParentLeft="true"/>
 
     <TextView
         android:id="@+id/store"
-        android:text="Store"
+        android:text="@string/store"
         style="@style/ButtonStyle"
         android:layout_alignParentRight="true"/>
 

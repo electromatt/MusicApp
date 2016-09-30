@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MusicApp</string>
+    <string name="now_playing_text">On this activity the user will see the current song being played. Data is downloaded from the Spotify API.</string>
+    <string name="store_text">This activity shows a list of new music, top music, and music by genre. Data is downloaded from the Spotify API.</string>
+    <string name="library_text">This page shows a list of music in the Library. Music sorted by recent, and genre. Data is downloaded from the Spotify API.</string>
+    <string name=""></string>
+    <string name="library">Library</string>
+    <string name="store">Store</string>
+    <string name="now_playing">Now Playing</string>
 </resources>
